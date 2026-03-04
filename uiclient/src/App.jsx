@@ -10,6 +10,7 @@ import Admission from './Pages/Admission'
 import Faculty from './Pages/Faculty'
 import Gallery from './Pages/Gallary'
 import Contact from './Pages/Contact'
+import MuHSMandiate from './Pages/MuHSMandiate'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <Route path="/" element={<Home />} />
             {/* Uncomment as you create pages */}
             <Route path="/about" element={<About />} />
-            {/* <Route path="/muhs-mandiate" element={<MuHSMandiate />} /> */}
+            <Route path="/muhs-mandiate" element={<MuHSMandiate />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/facilities" element={<Facility />} />
             <Route path="/admissions" element={<Admission />} />
